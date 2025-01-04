@@ -2,7 +2,7 @@
 
  🎥 Real-time Traffic Monitoring and Speed Enforcement
 
-🌟 What It Does
+# 🌟 What It Does
 
 This system uses artificial intelligence to detect vehicles in video streams, 
 track their movement, and calculate their speeds in real-time. It can:
@@ -13,7 +13,7 @@ track their movement, and calculate their speeds in real-time. It can:
 📊 Display real-time results on screen
 
 
-🧩 System Components
+# 🧩 System Components
 
 Our Vehicle Speed Detection System is composed of several interconnected components,
 each playing a crucial role in the overall functionality. 
@@ -74,7 +74,7 @@ Here's a detailed breakdown of each component:
 🎚️ Allows easy tuning of detection and tracking parameters
 🗃️ Stores mappings for vehicle classes and their corresponding indices
 
- 🛠️ How It Works
+# 🛠️ How It Works
 
 1. Video Input: Uses your webcam or a video file
 2. Vehicle Detection: Spots vehicles using YOLOv8 AI
@@ -83,7 +83,7 @@ Here's a detailed breakdown of each component:
 5. Visualization: Shows results on screen with bounding boxes and speed info
 6. Logging: Records speed violations in an Excel file
 
- 📋 Requirements
+# 📋 Requirements
 
 Python 3.8 or newer
 OpenCV
@@ -92,7 +92,7 @@ Ultralytics YOLOv8
 openpyxl
 SciPy
 
-🏃‍➡️🏃‍➡️🏃‍➡️Before Run the Program 🏃‍➡️🏃‍➡️🏃‍➡️:
+# 🏃‍➡️🏃‍➡️🏃‍➡️Before Run the Program 🏃‍➡️🏃‍➡️🏃‍➡️:
   Install the required packages:
    ( pip install opencv-python numpy ultralytics openpyxl scipy ) 📏📏OR📏📏 ( pip install -r requirements.txt )
 
@@ -104,14 +104,14 @@ For video file: `python main.py path/to/your/video.mp4`
 Press 'q' to quit
 Press 's' to save a screenshot
 
- ⚙️ Customization
+# ⚙️ Customization
 
 Edit `config.py` to change:
 🎯 Detection sensitivity
 🏁 Speed calculation settings
 🚄 Speed limits for different vehicles
 
- 📊 What You'll See
+# 📊 What You'll See
 
 Live video with:
 Boxes around detected vehicles
@@ -125,20 +125,20 @@ Frames per second (FPS) count
 ![Screenshot 2025-01-04 140741](https://github.com/user-attachments/assets/547f7faf-d88d-4efb-b6d1-80f6e604fd69)
 
 
- 💡 Tips for Best Results
+# 💡 Tips for Best Results
 
 📏 Calibrate the camera settings in `config.py` for your setup
 🎥 Use high-quality video input for better accuracy
 💻 A computer with a good GPU will run the system faster
 
- 🔮 Future Plans
+# 🔮 Future Plans
 
 Night-time detection improvements
 License plate recognition
 Web interface for remote monitoring
 Integration with traffic management systems
 
- 🤝 Want to Contribute?
+# 🤝 Want to Contribute?
 
 We welcome your ideas and code contributions! Here's how:
 1. Fork the repository
@@ -160,4 +160,4 @@ This project is a Open Source Project.
 
 ---
 
-🌟 Created with passion by [ABHISHEK SINGH] 🌟
+# 🌟 Created with passion by [ABHISHEK SINGH] 🌟
