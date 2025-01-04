@@ -36,44 +36,39 @@ Here's a detailed breakdown of each component:
 🏷️ Classifies detected objects into vehicle categories (e.g., car, truck, bus, motorcycle)
 🎯 Applies confidence thresholding to minimize false positives
 
- 4. ⏱️ Speed Tracker (`speed_tracker.py`)
-📍 Maintains position history for each detected vehicle
-🧮 Calculates vehicle speeds based on position changes over time
-🔢 Implements algorithms to smooth speed calculations and reduce fluctuations
-
- 5. 🖼️ Visualizer (`visualizer.py`)
+4. 🖼️ Visualizer (`visualizer.py`)
 🎨 Draws bounding boxes around detected vehicles on the video frame
 📝 Overlays vehicle information (type, speed) on the video
 🚦 Color-codes speed displays based on speed limit compliance
 🖥️ Manages the on-screen display of processing statistics (e.g., FPS counter)
 
- 6. 📊 Data Logger (`data_logger.py`)
+ 5. 📊 Data Logger (`data_logger.py`)
 📝 Records speed limit violations in real-time
 📅 Timestamps each violation entry
 📂 Saves violation data to an Excel file for later analysis
 🔒 Ensures data integrity with proper file handling and error management
 
- 7. 📹 Video Capture (`video_capture.py`)
+ 6. 📹 Video Capture (`video_capture.py`)
 🎥 Handles video input from various sources (webcam, video files)
 🧵 Implements multi-threading for efficient frame capture
 🛠️ Provides fallback options and error handling for different video backends
 
- 8. ⏱️ Speed Tracker (`speed_tracker.py`)
+ 7. ⏱️ Speed Tracker (`speed_tracker.py`)
 📍 Maintains position history for each detected vehicle
 🧮 Calculates vehicle speeds based on position changes over time
 🔢 Implements algorithms to smooth speed calculations and reduce fluctuations
 
- 9. 🧮 Speed Calculator (`speed_calculator.py`)
+ 8. 🧮 Speed Calculator (`speed_calculator.py`)
 📐 Converts pixel movements to real-world speed measurements
 🧪 Applies statistical methods to filter out anomalies in speed data
 🎚️ Adapts calculations based on camera perspective and positioning
 
- 10. 📏 Calibration (`calibration.py`)
+ 9. 📏 Calibration (`calibration.py`)
 📐 Handles camera calibration parameters
 🗺️ Translates pixel coordinates to real-world distances
 🔧 Provides functions to adjust for camera angle and positioning
 
- 11. ⚙️ Configuration (`config.py`)
+ 10. ⚙️ Configuration (`config.py`)
 🎛️ Centralizes all system-wide settings and parameters
 🚥 Defines speed limits for different vehicle types
 🎚️ Allows easy tuning of detection and tracking parameters
@@ -97,13 +92,9 @@ Ultralytics YOLOv8
 openpyxl
 SciPy
 
-🏃‍➡️🏃‍➡️🏃‍➡️Run the Program 🏃‍➡️🏃‍➡️🏃‍➡️:
+🏃‍➡️🏃‍➡️🏃‍➡️Before Run the Program 🏃‍➡️🏃‍➡️🏃‍➡️:
   Install the required packages:
    ( pip install opencv-python numpy ultralytics openpyxl scipy ) 📏📏OR📏📏 ( pip install -r requirements.txt )
- 
-  For webcam: `python main.py`
-  For video file: `python main.py path/to/your/video.mp4`
-
 
 3. Run the Program:
 For webcam: `python main.py`
@@ -157,15 +148,11 @@ This project is a Open Source Project.
 
  👥 Team
 
-[Your Name](https://github.com/yourusername) Project Lead
-[Contributor 1](https://github.com/contributor1) AI Specialist
-[Contributor 2](https://github.com/contributor2) Computer Vision Expert
+[ABHISHEK SINGH](https://github.com/BeingLazyCoder) Project Lead and Creater.
 
  📞 Need Help?
-
-📧 Email: your-email@example.com
-🐛 Issues: [GitHub Issues Page](https://github.com/yourusername/vehicle-speed-detection/issues)
+🐛 Issues: [GitHub Issues Page](https://github.com/BeingLazyCoder/Vehicle-Speed-and-Type-Detection-Using-YoloV8/issues)
 
 ---
 
-🌟 Created with passion by [Your Name/Organization] 🌟
+🌟 Created with passion by [ABHISHEK SINGH] 🌟
