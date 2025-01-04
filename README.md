@@ -120,7 +120,7 @@ Calculated speeds
 Frames per second (FPS) count
 `speed_violations.xlsx` file with logged violations
 
-#ScreeShot......
+# ScreeShot......
 ![Screenshot 2025-01-01 130247](https://github.com/user-attachments/assets/d5ef54c7-5682-4c71-8a85-068ba63f51cc)
 ![Screenshot 2025-01-04 140027](https://github.com/user-attachments/assets/08ab6622-7f20-40d6-8e52-8272823400b4)
 
