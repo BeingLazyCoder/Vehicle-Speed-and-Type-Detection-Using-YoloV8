@@ -113,12 +113,12 @@ Edit `config.py` to change:
 
 # 📊 What You'll See
 
-Live video with:
-Boxes around detected vehicles
-Vehicle types (car, truck, etc.)
-Calculated speeds
-Frames per second (FPS) count
-`speed_violations.xlsx` file with logged violations
+- Live video with:
+- Boxes around detected vehicles
+- Vehicle types (car, truck, etc.)
+- Calculated speeds
+- Frames per second (FPS) count
+- `speed_violations.xlsx` file with logged violations
 
 # ScreeShot......
 ![Screenshot 2025-01-01 130247](https://github.com/user-attachments/assets/d5ef54c7-5682-4c71-8a85-068ba63f51cc)
@@ -133,10 +133,10 @@ Frames per second (FPS) count
 
 # 🔮 Future Plans
 
-Night-time detection improvements
-License plate recognition
-Web interface for remote monitoring
-Integration with traffic management systems
+- Night-time detection improvements
+- License plate recognition
+- Web interface for remote monitoring
+- Integration with traffic management systems
 
 # 🤝 Want to Contribute?
 
